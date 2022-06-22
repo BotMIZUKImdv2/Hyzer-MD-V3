@@ -401,7 +401,7 @@ module.exports = {
                     name: this.getName(m.sender),
                     age: -1,
                     regTime: -1,
-                    premium: false, 
+                    premium: true, 
                     premiumTime: 0,
                     job: 'Pengangguran', 
                     lbars: '[▒▒▒▒▒▒▒▒▒]', 
