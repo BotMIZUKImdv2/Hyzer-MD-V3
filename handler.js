@@ -709,7 +709,7 @@ module.exports = {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'Sip, Beban Berkurang 1'))
-                                this.sendButtonImg(id, pp, text, "© KIMCHI BOTZ", "Okee", "wkwk", null)
+                                this.sendButtonImg(id, pp, text, "©KIMCHI", "Okee", "wkwk", null)
                                 }
                     }
                 }
@@ -747,8 +747,8 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*Perintah ini Khusus KIMCHI BOTZ*',
-        owner: '*Perintah ini Khusus KIMCHI BOTZ*',
+        rowner: '*Perintah ini Khusus KIMCHI*',
+        owner: '*Perintah ini Khusus KIMCHI*',
         mods: '*Perintah ini hanya dapat digunakan oleh* _*Moderator*_ !',
         premium: '*Perintah ini hanya untuk member* _*Premium*_ !',
         group: '*Perintah ini hanya dapat digunakan di grup!*',
